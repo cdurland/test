@@ -1,0 +1,2 @@
+BM
+echo 'hello there'
