@@ -1,0 +1,20 @@
+<jnlp spec="1.0+" codebase="https://github.com/cdurland/test/raw/master" href="main.jnlp">
+<information>
+    <title>hello</title>
+    <vendor>chip</vendor>
+    <offline-allowed />
+    <update check="always" policy="always" />
+</information>
+
+<resources>
+    <!-- Application Resources -->
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="main.jar" main="true" />
+</resources>
+<application-desc
+        name="Swing Demo"
+        main-class="main"
+        width="300"
+        height="300">
+</application-desc>
+</jnlp>
