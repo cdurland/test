@@ -1,7 +1,6 @@
-<?xml version="1.0"?>
-<!DOCTYPE roottag [
-<!ENTITY % param SYSTEM "http://pingb.in/4cd02dfed1c894c72e0752a5a99a">
-]>
-<root>
-<tag2>&http;</tag2>
-</root>
+<?xml version="1.0" ?>
+<!DOCTYPE replace [<!ENTITY example "Doe"> ]>
+ <userInfo>
+  <firstName>John</firstName>
+  <lastName>&example;</lastName>
+ </userInfo>
