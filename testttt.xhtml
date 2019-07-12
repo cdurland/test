@@ -11,6 +11,15 @@
   <a href="https://google.com">Google</a>
   <script>alert(1)</script>
   <b onclick="alert(2)">aaaaaaaaaaa</b>
+  <style>
+p::before {
+    content: "Important security update: http://evil.com/update";
+} 
+</style>
+
+<p>
+Somewhere a user does not expect user input
+</p>
 </body>
 
 </html>
