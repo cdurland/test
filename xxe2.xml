@@ -2,5 +2,7 @@
 <!DOCTYPE root [
 <!ENTITY test SYSTEM 'file:///etc/hosts'>
 ]>
-<root>&test;</root>
-<test2>aaaaaaaaaaaaaa</test2>
+<all>
+  <root>&test;</root>
+  <test2>aaaaaaaaaaaaaa</test2>
+</all>
