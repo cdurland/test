@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE root [
-<!ENTITY test SYSTEM 'file:///etc/hosts'>
+<!ENTITY test SYSTEM '/etc/hosts'>
 ]>
 <all>
   <root>&test;</root>
