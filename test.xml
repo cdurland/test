@@ -1,3 +1,5 @@
+beforeeeeee
 <html>
   <![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
  </html>
+testtttttt
