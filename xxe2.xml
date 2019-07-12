@@ -1,2 +1,7 @@
 <?xml version="1.0"?>
-<!DOCTYPE roottag [<!ENTITY include SYSTEM "/etc/hosts";>]>
+<!DOCTYPE roottag [
+<!ENTITY % para "<!ENTITY http SYSTEM 'file:///etc/hosts'>">
+%para; ]>
+<root>
+<tag2>&http;</tag2>
+</root>
