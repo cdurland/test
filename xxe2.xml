@@ -1,2 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <!DOCTYPE roottag [<!ENTITY include SYSTEM "/etc/hosts";>]>
+<?xml version="1.0"?>
+<!DOCTYPE roottag [<!ENTITY include SYSTEM "/etc/hosts";>]>
