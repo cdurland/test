@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE root [
-<!ENTITY test SYSTEM '/etc/hosts'>
-]>
-<all>
-  <root>&test;</root>
-  <test2>aaaaaaaaaaaaaa</test2>
-  <test3>aaaaaaaaaaaaaa</test3>
-</all>
+<!DOCTYPE test [ <!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk"> %init; ]><foo/>
+<root>
+  <test>asdfasdf</test>
+</root>
